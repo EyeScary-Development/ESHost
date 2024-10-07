@@ -1,0 +1,26 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>ESHost</title>
+</head>
+<body>
+<div class="content">
+    <h2>ESHost</h2>
+    <p>Picture this, you finished making your website and you're ready to host i..... oh, you don't know how to start hosting your website, and you don't want to sign up for an account.</p>
+    <br><br>
+    <p>This is the solution, it's a simple website hosting service that allows you to have as many websites as you want, wihout any sign-ups, just paste your code below, hit enter and you'll recieve the url for your website to keep in a safe place</p>
+</div>
+<div class="content">
+<form id="codeForm" onsubmit="return createURL()" style="display:block;">
+    <input style="text-align:center;width:100%" type="text" id="codebox" placeholder="paste your website here and press enter">
+</form>
+</div>
+<div class="content">
+    <h3>So how does this work?</h3>
+    <p>It's fairly simple, to be fair, we simply take your html code, encode it with base64 and add it as a custom code url parameter to a blank html file, meaning your code goes in the place of the basic file. This method has drawbacks, like really long urls and breakages because of those, but rest assured, we are working on those for future updates.</p>
+</div>
+<div class="content">
+    <h3>All the boring stuff</h3>
+    <h6>Copyright EyeScary Development 2024, software can be modified and published as your own as long as you aren't a private company. Weapons companies may not host their websites on our service. <br><br> <sub>And no poo poo or wee wee during work time</sub></h6>
+</div>
+</body>
+<script src="index.js"></script>
